@@ -1,6 +1,6 @@
 import subprocess
 '''
-command = "whoam"
+command = "whoami"
 out = subprocess.check_output(command, stderr=subprocess.STDOUT, shell=True)
 # print(out)
 print(out.decode())
